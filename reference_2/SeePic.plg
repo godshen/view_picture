@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SeePic - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/SeePic.res" /d "_DEBUG" "D:\ljh\SeePic\SeePic.rc"" 
+Creating temporary file "C:\DOCUME~1\toldo\LOCALS~1\Temp\RSP4CC.tmp" with contents
+[
+imageload.lib imageobjectD.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SeePic.pdb" /debug /machine:I386 /out:"Debug/SeePic.exe" /pdbtype:sept 
+.\Debug\MainFrm.obj
+.\Debug\SeePic.obj
+.\Debug\SeePicDoc.obj
+.\Debug\SeePicView.obj
+.\Debug\StdAfx.obj
+.\Debug\SeePic.res
+]
+Creating command line "link.exe @C:\DOCUME~1\toldo\LOCALS~1\Temp\RSP4CC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SeePic.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
